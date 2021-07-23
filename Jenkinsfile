@@ -9,6 +9,6 @@ node {
         sh 'cd TestJavaSimple/ && javac Main.java'
     }
     stage('run') {
-        sh 'cd TestJavaSimple/ &&'
+        sh 'cd TestJavaSimple/ && java Main'
     }
 }
