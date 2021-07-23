@@ -1,6 +1,6 @@
 node {
     stage('clone') {
-        sh "git clone https://github.com/priximmo/jenkins-helloworld.git"
+        sh "git clone https://github.com/zensix/TestJavaSimple.git"
     }
     stage('build') {
         sh label:'', script: 'javac Main.java'
